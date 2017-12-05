@@ -1,0 +1,27 @@
+{
+  "name": "learn-koa",
+  "version": "1.0.0",
+  "description": "project is to have a hand on feel on koa how to write route",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhamRaj16/learn-KOA.git"
+  },
+  "keywords": [
+    "koa",
+    "basic",
+    "starter"
+  ],
+  "author": "Shubham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShubhamRaj16/learn-KOA/issues"
+  },
+  "homepage": "https://github.com/ShubhamRaj16/learn-KOA#readme",
+  "dependencies": {
+    "koa": "^2.4.1"
+  }
+}
