@@ -4,7 +4,7 @@
   "description": "project is to have a hand on feel on koa how to write route",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node src/index.js"
   },
   "repository": {
     "type": "git",
