@@ -1,4 +1,3 @@
-
 // require('babel-register')({
 //     presets: ['env'],
 // })
@@ -14,5 +13,4 @@ App.use(async (ctx,next) =>{
     await next();
     console.log('Done');
 })
-
 App.listen(3000);
