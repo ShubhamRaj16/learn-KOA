@@ -33,11 +33,12 @@
 		"babel-preset-env": "^1.6.1",
 		"babel-preset-es2015-node": "^6.1.1",
 		"babel-register": "^6.26.0",
+		"koa-router": "^7.3.0",
 		"nodemon": "^1.13.3"
 	},
 	"babel": {
 		"presets": [
-		  "env"
+			"env"
 		]
 	}
 }
