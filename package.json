@@ -1,27 +1,44 @@
 {
-  "name": "learn-koa",
-  "version": "1.0.0",
-  "description": "project is to have a hand on feel on koa how to write route",
-  "main": "index.js",
-  "scripts": {
-    "test": "node src/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ShubhamRaj16/learn-KOA.git"
-  },
-  "keywords": [
-    "koa",
-    "basic",
-    "starter"
-  ],
-  "author": "Shubham",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ShubhamRaj16/learn-KOA/issues"
-  },
-  "homepage": "https://github.com/ShubhamRaj16/learn-KOA#readme",
-  "dependencies": {
-    "koa": "^2.4.1"
-  }
+	"name": "learn-koa",
+	"version": "1.0.0",
+	"description": "project is to have a hand on feel on koa how to write route",
+	"main": "index.js",
+	"scripts": {
+		"babel-node": "babel-node --presets=env",
+		"start": "nodemon --exec npm run babel-node -- src/index.js",
+		"build": "babel src -d dist",
+		"test": "babel src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ShubhamRaj16/learn-KOA.git"
+	},
+	"keywords": [
+		"koa",
+		"basic",
+		"starter"
+	],
+	"author": "Shubham",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ShubhamRaj16/learn-KOA/issues"
+	},
+	"homepage": "https://github.com/ShubhamRaj16/learn-KOA#readme",
+	"dependencies": {
+		"koa": "^2.4.1"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-eslint": "^8.0.3",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-es2015-node": "^6.1.1",
+		"babel-register": "^6.26.0",
+		"koa-router": "^7.3.0",
+		"nodemon": "^1.13.3"
+	},
+	"babel": {
+		"presets": [
+			"env"
+		]
+	}
 }
